@@ -6,7 +6,7 @@ frequency = 5  # Frequency in Hz
 amplitude = 1  # Amplitude of the wave
 time = np.linspace(0, 1, 500)  # Time vector
 
-# Generate the sine wave
+# Generate the sine wave stuff
 sine_wave = amplitude * np.sin(2 * np.pi * frequency * time)
 
 # Plot the sine wave
